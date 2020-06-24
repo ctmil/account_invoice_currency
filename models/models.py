@@ -5,7 +5,7 @@
 from odoo import api, models, fields, _
 from odoo.exceptions import ValidationError
 from odoo.tools.misc import formatLang, format_date, get_lang
-
+from datetime import date
 
 class ResCurrency(models.Model):
     _inherit = 'res.currency'
